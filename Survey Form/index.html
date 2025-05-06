@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>freeCodeCamp Survey Form</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Turned this into a <a target="_blank" href="https://www.totalwar.com">Total War</a> related form, because why not</p>
+
+    <form id="survey-form">
+      <fieldset>
+        <legend>Personal Information</legend>
+        <label id="name-label" for="name">Name<input id="name" class="personal-field" type="text" placeholder="Insert your name" required></label>
+        <label id="email-label" for="email">Email<input id="email" class="personal-field" type="email" placeholder="Insert your email" required></label>
+        <label id="number-label" for="number">Age<input id="number" class="personal-field" type="number" pattern="[0-9]" min="1" max="9" placeholder="Insert your age"></label>
+      </fieldset>
+
+      <fieldset class="fieldset2" >
+        <label for="dropdown">Of the following, which Total War is your favorite?
+          <select id="dropdown">
+            <option value="">Select one</option>
+            <option value="shogun">Shogun</option>
+            <option value="medieval">Medieval</option>
+            <option value="rome">Rome</option>
+            <option value="medieval2">Medieval 2</option>
+            <option value="warhammer">Warhammer</option>
+          </select>
+        </label>
+
+        <p>Which type of Total War do you prefer?</p>
+        <label id="radio-historical-label" for="radio-historical">
+          <input id="radio-historical" type="radio" name="favorite-type" value="historical" checked> Historical</label>
+        <label id="radio-fantasy-label" for="radio-fantasy">
+          <input id="radio-fantasy" type="radio" name="favorite-type" value="fantasy"> Fantasy</label>
+
+        <p>Which would you like to be the next title?</p><p id="p-optional">(You can select multiple)</p>
+        <label class="checkbox-label">
+          <input type="checkbox" name="next-titles" value="medieval3"> Medieval 3
+        </label>
+        <label class="checkbox-label">
+          <input type="checkbox" name="next-titles" value="empire2"> Empire 2
+        </label> 
+        <label class="checkbox-label">
+          <input type="checkbox" name="next-titles" value="warhammer40k"> Warhammer 40k
+        </label>  
+      </fieldset>
+
+      <fieldset>
+        <p>Feel free to share your thoughts below:</p>
+        <textarea id="comments" placeholder="What are you thinking..."></textarea>
+      </fieldset>
+
+      <input id="submit" type="submit" value="Submit">
+    </form>
+
+    <footer>Not sponsored...</footer>
+    
+  </body>
+
+</html>

@@ -1,0 +1,102 @@
+body {
+    background: radial-gradient(rgba(144, 78, 78, 0.6), gray);
+    width: 100%;
+    font-size: 30px;
+    font-family: Tahoma, serif;
+  }
+  
+  h1, #description {
+    text-align: center;
+  }
+  
+  form {
+    background-color: rgba(144, 78, 78, 0.484);
+    width: 40%;
+    margin: 0 auto;
+    padding: 5px
+  }
+  
+  fieldset {
+    margin: 1em;
+  }
+  
+  label {
+    display: block;
+    margin: 0.5em 0;
+  }
+  
+  .personal-field {
+    display: block;
+    width: 100%;
+    height: 2em;
+    font-size: 0.5em;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+  }
+  
+  .fieldset2 {
+    font-size: 24px;
+    margin: 1.25em;
+  }
+  
+  #dropdown {
+    display: block;
+    height: 2em;
+    font-size: 0.6em;
+    margin-top: 0.5em;
+    margin-bottom: 3em;
+  }
+  
+  p {
+    text-align: left;
+    margin-bottom: 0;
+  }
+  
+  #radio-historical-label, #radio-fantasy-label {
+    margin-top: 0.5em;
+    font-size: 0.8em;
+  }
+  
+  #radio-fantasy {
+    margin-bottom: 1.5em;
+  }
+  
+  #p-optional {
+    font-size: 0.5em;
+    margin-top: 0;
+  }
+  
+  .checkbox-label {
+    display: block;
+    font-size: 0.8em;
+  }
+  
+  fieldset:last-of-type {
+    border: none;
+    margin-bottom: 0;
+  }
+  
+  p:last-of-type {
+    font-size: 24px;
+  }
+  
+  textarea {
+    width: 100%;
+    margin: 0.8em auto;
+  }
+  
+  #submit {
+    display: block;
+    margin: 0 auto;
+    min-width: 100px;
+    min-height: 40px;
+    background-color: rgb(26, 210, 91)
+  }
+  
+  #submit:active {
+    background-color: rgb(14, 113, 49)
+  }
+  
+  footer {
+    font-size: 0.5em;
+  }
