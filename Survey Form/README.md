@@ -8,6 +8,6 @@ Even though this project was quite basic, I was happy to get all the functionali
 
 Below are the screenshots of the form
 
-![Screenshot of the top](images/personal%20info.jpg)
+![Screenshot of the top](images/personal%20info.JPG)
 
-![Screenshot of the bottom](images/bottom%20part.jpg)
+![Screenshot of the bottom](images/bottom%20part.JPG)
