@@ -7,6 +7,7 @@ All of the functionalities in the form were requested for the project to be vali
 Even though this project was quite basic, I was happy to get all the functionalities working the first time with only a few tweaks needed to satisfy the requirements for the project validity. It might not be the prettiest but it works as intended and since I'm learning HTML and CSS, I believe the visual aspect, even though it is important, is secondary to the function.
 
 Below are the screenshots of the form
+
 Keep in mind that the bottom part of the first screenshot and the top part of the second are the same. I took the screenshots this way to know how each fieldset connnects to the other (borders) when looking at a single screenshot instead of having to look at both.
 
 ![Screenshot of the top](images/personal%20information.JPG)
