@@ -1,0 +1,132 @@
+body {
+  display: flex;
+  margin: 0;
+}
+
+#navbar-div {
+  min-width: 250px;
+  padding: 20px;
+  font-size: 2.5em;
+}
+
+#navbar {
+  width: calc(250px + 2 * 20px); /** width is calculated this way because it is relative to the #navbar-div width -> width + 2 * padding */
+  position: fixed;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  left: 0;
+  border-right: 2px solid black;
+  top: 0;
+  bottom: 0;
+  padding-top: 20px;
+}
+
+#header-steam {
+  padding-bottom: 15px;
+}
+
+.nav-link {
+  border-top: 2px solid black;
+  padding: 15px 0;
+  width: 100%;
+  text-align: center;
+}
+
+.nav-link:last-of-type {
+  border-bottom: 2px solid black;
+}
+
+/** nav-divider was used before adding borders to the nav-link */
+.nav-divider {
+  height: 1px;
+  width: 100%;
+  border-top: 2px solid black;
+  margin: 15px 0;
+}
+
+a {
+  font-size: 0.7em;
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  background-color: teal;
+}
+
+main {
+  margin: 40px;
+}
+
+main header {
+  font-size: 2.5em;
+}
+
+main p {
+  font-size: 1.5em;
+  margin-left: 15px;
+}
+
+ul {
+  margin-left: 20px;
+}
+
+li {
+  font-size: 1.2em;
+}
+
+.tips {
+  padding-left: 15px;
+  font-size: 1.2em;
+}
+
+
+@media (max-width: 750px) {
+  
+  /** Remove the horizontal scrollbar */
+  html, body {
+    overflow-x: hidden;
+  }
+  
+  body {
+    flex-direction: column;
+  }
+
+  #header-steam {
+    font-weight: bold;
+    font-size: 1.5em;
+  }
+
+  #navbar-div {
+    width: 100%;
+    height: 300px;
+    flex-direction: flex-start;
+    margin-bottom: 15px;
+  }
+
+  #navbar {
+    border: 1px solid black;
+    box-sizing: border-box;
+    width: 100%;
+    height: 360px;
+    position: absolute;
+    top: 10px;
+    font-size: 0.5em;
+    margin: 0 auto;
+  }
+  
+  .nav-link:last-of-type {
+    border-bottom: none;
+  }
+
+  /** Not used anymore, but decided to left it here anyway */
+  .nav-divider:last-of-type {
+    display: none;
+  }
+
+  #main-doc {
+    padding-top: 10px;
+  }
+}
