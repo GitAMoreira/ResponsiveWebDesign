@@ -6,6 +6,6 @@ This repository contains every certification project required in the Responsive 
 This course focuses on HTML and CSS.
 
 Projects in order or development: 
-  1 - Survey Form
-  2 - Tribute Page
-  3 - Technical Documentation Page
+1. Survey Form
+2. Tribute Page
+3. Technical Documentation Page
